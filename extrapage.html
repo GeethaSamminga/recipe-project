@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+    body {
+    
+    background-image: url("https://t4.ftcdn.net/jpg/03/01/90/79/240_F_301907970_ZVaPcSGe9rgYgRMRGUcbf91YxNwB7d2W.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh; 
+}
+
+
+#recipeDetails {
+    min-height: 450px; 
+    min-width: 350px;
+    background-color: rgba(212, 212, 212, 0.7); 
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px;
+    padding: 20px;
+    position: relative; 
+    text-align: center;
+}
+
+#recipeDetails .content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    line-height: 40px;
+    font-size: 17px;
+}
+
+
+#recipeDetails:hover {
+    transform: scale(1.1); 
+    background-color:aliceblue;
+}
+.style{
+    font-size: 45px;
+    background-size: cover;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPDxUPEhIVFRUVFRUVFRUXFyEYFRUVFRUXFhUVGBUYHSggGBolHRcaITEhJSkrLi4uFx8zODMtNyotLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIATMApAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQcC/8QAIRABAQEBAAICAwEBAQAAAAAA8ABRsQERMdFBkcECgRL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A2sZBkGwbAknuANg2DJ7HxAGz0PmDIMgSSAMgyDYNgDIMg2DYEnuQBsGwZPA/EAbBsGQZArJBB2QckFlJBaDkg7BRykHawJSQIOyDkAdkHJBaT1IEHJB2AOSDsgVpWCDYNgyex8QJJAGQZBs9j5gDIMnsfM9j5gSSANg2ex8QZAGwbBkGQJPcgDIMnuDYAyDINnsfMCtPdYIOSDdkFpJAg7IMgDtaDMnqCx+aSBUcpPQ+dgo5KDZBaSeoLB2kGQUdoOwZIFZ48SCDIMg2QJJAGwbIMgDYNgzZAkkAZBkg2AMgyDckCSQBsGyDNgDYNgzZAlfcgDsoMgyBWkgtByQbAHK0GwbArSQKjtBkGQB2QZBkFpJAg5INgo5Qcg2DYD81pWCDYNg7PcCSQBkGVoOQBkGVHKQJWkAbBtaDsAbBtR2kCVpAGTwPxKjkEGQZByDkCtKwQckGwbArSQKjtBkGQB2tBkGQJJAg5BsGwByQbBsCSQWg7BkGQUdpBkGQK0kAZBkHIOQJWkAbBtYOwQbBsHYOwJJAGQZWg5AGQZByDkCVpAGwbWg7AGwbB2DsCskEHZBkGQJJAg5BsGwPQ/U9QbBsCSQIOwZBkAbsgyDIEkgQcg2DYAzJBsGwWUkAbBtR2QSVkEGQZWDkEGQZUckElaQBsG1g7BBsG1HYOwSVkEgysHIIMlRyDkErJBBkg2DYHqSQPUGwZBkD0PmQZBkCSQJ6HxBsGwBkg2DYEkgQbBkGQPQ+Z6gyDIFaSAM2VHKQJJAg3JB2AOSDsge5KwSDNrByCDNkHKjkEkrBINysHYINye4OwdgPmskEGz0PmDIMgSSAMgyDYNgDIMg2DYEkgDYNgyDIA2DYMgyBJIAyDINg2AMnofEGwbArSQBysHaQJJAg7IOQB2QckCSQIOVoOwByQdkCSQIOyDkAdkHJBZJBBkGQbBsCSQBsGwZBkAbBsGQZAkkAZBkGzyPzAGQZBsGwJJAGwbBkGQBsGwZBkCSQB2QZkgspIFRykG7AHK0G7ILSSCwdpBmQUdg7BmUgslPUCDkqN2AOUg3Z6gspWCDY/B5gyDID8Se5AGQZINgDIMg2QJJ7gDYNk9j4gPweY/B5gyQH4k9yAMgye4NgDI/B4nsfMGwK0rAHJT0PmQWU9SC0HZBkFHaDsGQZBaT1ILQck9D5go5Byg2eoEkgVHaQZBR2g7Bk9D4gPzWSDj/Xn5b9eJ58v39eJIHue5IHt+vuePL9ffmSB4/1/P59+Z48v19yQPc/9SQPPl+/qef9fP8A3+/XiSB7/v8AfrxPPl+/rxJA9z3JA8eX6+548/z+ffmSB7+GffmePL9ffmSB481kg//Z");
+    background-clip: text;
+    -webkit-background-clip: text;
+     color:transparent;
+}
+     
+        </style>
+</head>
+<body>
+    <div class="container">
+        <center><h1 class="style">Recipe Details</h1></center>
+        <div id="recipeDetails" class="results"></div>
+    </div>
+    
+    <script>
+        const recipeData = JSON.parse(sessionStorage.getItem('recipeData'));
+
+if (recipeData && recipeData.length > 0) {
+    
+    const recipe = recipeData[0];
+
+    if (recipe) {
+        const recipeDetails = document.getElementById('recipeDetails');
+        recipeDetails.innerHTML = `
+            <h2>${recipe.name}</h2>
+            <p>Prep Time: ${recipe.prepareTime} minutes</p>
+            <p>Cook Time: ${recipe.cookTime} minutes</p>
+            <h3>Ingredients</h3>
+            <ul>
+                ${recipe.ingredients.map(ingredient => `<li>${ingredient.name}</li>`).join('')}
+            </ul>
+        `;
+    } else {
+        document.getElementById('recipeDetails').innerHTML = 'Recipe not found.';
+    }
+} else {
+    document.getElementById('recipeDetails').innerHTML = 'No recipe data found.';
+}
+
+
+          
+    </script>
+</body>
+</html>
